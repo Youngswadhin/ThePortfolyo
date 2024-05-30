@@ -11,7 +11,7 @@ const Contact = ({ social_handles }: { social_handles: SocialHandle[] }) => {
           return (
             <Parallax key={i} speed={i * 10/i}>
               <a
-                className="cursor-pointer text-[clamp(25px,5vw,70px)] font-semibold"
+                className="cursor-pointer text-[clamp(25px,5vw,70px)] text-white font-semibold"
                 data-cursor-background-image={social.image.url}
                 data-cursor-size="80px"
               >
@@ -32,7 +32,7 @@ const Contact = ({ social_handles }: { social_handles: SocialHandle[] }) => {
           />
         </div>
       </div>
-      <header className="text-[clamp(40px,7vw,90px)] font-semibold w-full flex justify-end">
+      <header className="text-[clamp(40px,7vw,90px)] font-semibold w-full text-white flex justify-end">
         Contact.
       </header>
     </section>

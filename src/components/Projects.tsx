@@ -24,7 +24,7 @@ const Projects = ({ projects }: { projects: Project[] }) => {
         ))}
       </div>
       <div className="sticky top-0 left-0 w-full h-screen flex items-center justify-center pointer-events-none">
-        <div className="heading text-[clamp(50px,8vw,150px)] font-bold ">
+        <div className="heading text-[clamp(50px,8vw,150px)] text-white font-bold ">
           PROJECTS
         </div>
       </div>

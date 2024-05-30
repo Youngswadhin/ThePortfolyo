@@ -6,7 +6,7 @@ import { Parallax } from "react-scroll-parallax";
 const Testimonial = ({ testimonials }: { testimonials: TestimonialType[] }) => {
   return (
     <section className="w-full min-h-screen flex items-center justify-center relative" id="testimonial">
-      <Parallax scale={[1,1.5]} className="header absolute text-[clamp(50px,11vw,140px)] font-semibold">Testimonial</Parallax>
+      <Parallax scale={[1,1.5]} className="header absolute text-[clamp(50px,11vw,140px)] text-white font-semibold">Testimonial</Parallax>
       <CardStack
         items={testimonials.map((e) => {
           return {

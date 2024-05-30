@@ -29,7 +29,7 @@ const Main = ({ data }: { data: Data }) => {
         //   smoothTouch: true,
         // }}
       ></ReactLenis>
-      <main className="main w-full min-h-screen overflow-x-clip relative">
+      <main className="main bg-black w-full min-h-screen text-white overflow-x-clip relative">
         <Cursor isGelly={true} cursorBackgrounColor="#fff" />
 
         <Menu about={data.user.about} />
